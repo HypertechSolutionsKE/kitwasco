@@ -1,326 +1,176 @@
 <div role="main" class="main">
-    <div class="slider-container light rev_slider_wrapper">
-        <div id="revolutionSlider" class="slider rev_slider"
-        data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 500, 'disableProgressBar': 'on'}">
+    <div class="slider-container rev_slider_wrapper">
+        <div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 500}">
             <ul>
                 <li data-transition="fade">
-                    <img src="<?php echo base_url();?>assets/img/slides/slide-corporate-1.jpg"
+                    <img src="<?php echo base_url();?>assets/img/slides/slide-corporate-5.jpg"
                         alt=""
                         data-bgposition="center center"
                         data-bgfit="cover"
                         data-bgrepeat="no-repeat"
-                        data-kenburns="on"
-                        data-duration="9000"
-                        data-ease="Linear.easeNone"
-                        data-scalestart="150"
-                        data-scaleend="100"
-                        data-rotatestart="0"
-                        data-rotateend="0"
-                        data-offsetstart="0 0"
-                        data-offsetend="0 0"
-                        data-bgparallax="0"
                         class="rev-slidebg">
-
-                    <div class="tp-caption"
-                        data-x="177"
-                        data-y="188"
-                        data-start="1000"
-                        data-transform_in="x:[-300%];opacity:0;s:500;">
-                        <img src="<?php echo base_url();?>assets/img/slides/slide-title-border-light.png" alt="">
-                    </div>
-
-                    <div class="tp-caption top-label"
-                        data-x="227"
-                        data-y="180"
-                        data-start="500"
-                        data-transform_in="y:[-300%];opacity:0;s:500;">DO YOU NEED A NEW</div>
-
-                    <div class="tp-caption"
-                        data-x="480"
-                        data-y="188"
-                        data-start="1000"
-                        data-transform_in="x:[300%];opacity:0;s:500;">
-                        <img src="<?php echo base_url();?>assets/img/slides/slide-title-border-light.png" alt="">
-                    </div>
-
-                    <div class="tp-caption main-label"
-                        data-x="135"
-                        data-y="210"
-                        data-start="1500"
-                        data-whitespace="nowrap"
-                        data-transform_in="y:[100%];s:500;"
-                        data-transform_out="opacity:0;s:500;"
-                        data-mask_in="x:0px;y:0px;">WEB DESIGN?</div>
-
-                    <div class="tp-caption bottom-label"
-                        data-x="185"
-                        data-y="280"
-                        data-start="2000"
-                        data-transform_in="y:[100%];opacity:0;s:500;">Check out our options and features.</div>
-
                 </li>
                 <li data-transition="fade">
-                    <img src="<?php echo base_url();?>assets/img/slides/slide-corporate-2.jpg"
+                    <img src="<?php echo base_url();?>assets/img/slides/slide-corporate-6.jpg"
                         alt=""
-                        data-bgposition="right center"
-                        data-bgpositionend="center center"
+                        data-bgposition="center center"
                         data-bgfit="cover"
                         data-bgrepeat="no-repeat"
-                        data-kenburns="on"
-                        data-duration="9000"
-                        data-ease="Linear.easeNone"
-                        data-scalestart="110"
-                        data-scaleend="100"
-                        data-rotatestart="0"
-                        data-rotateend="0"
-                        data-offsetstart="0 0"
-                        data-offsetend="0 0"
-                        data-bgparallax="0"
                         class="rev-slidebg">
-
-                    <div class="tp-caption featured-label"
-                        data-x="center"
-                        data-y="210"
-                        data-start="500"
-                        style="z-index: 5"
-                        data-transform_in="y:[100%];s:500;"
-                        data-transform_out="opacity:0;s:500;">WELCOME TO PORTO</div>
-
-                    <div class="tp-caption bottom-label"
-                        data-x="center"
-                        data-y="270"
-                        data-start="1000"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:600;e:Power4.easeInOut;"
-                        data-transform_out="opacity:0;s:500;"
-                        data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                        data-splitin="chars"
-                        data-splitout="none"
-                        data-responsive_offset="on"
-                        style="font-size: 23px; line-height: 30px;"
-                        data-elementdelay="0.05">The #1 Selling HTML Site Template on ThemeForest</div>
-
+                </li>
+                <li data-transition="fade">
+                    <img src="<?php echo base_url();?>assets/img/slides/slide-corporate-7.jpg"
+                        alt=""
+                        data-bgposition="center center"
+                        data-bgfit="cover"
+                        data-bgrepeat="no-repeat"
+                        class="rev-slidebg">
                 </li>
             </ul>
         </div>
     </div>
+    <div class="home-intro" id="home-intro">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 center">
+                <h2 class="word-rotator-title mb-lg">
+                        Providing
+                    <strong class="inverted inverted-primary">
+                        <span class="word-rotate" data-plugin-options="{'delay': 2000, 'animDelay': 300}">
+                            <span class="word-rotate-items">
+                                <span>Sustainable</span>
+                                <span>Safe</span>
+                                <span>Adequate</span>
+                            </span>
+                        </span>
+                    </strong> water services.
+                </h2>
 
-    <section class="section m-none">
+                <p class="lead">
+                Kitui Water & Sanitation Co. Ltd is a limited company by guarantee and was incorporated on 10th April 2006. The Company has the core mandate of providing water to Kitu Municipality, its environs and part of Machakos County where the main source is located. It is the major service provider within <span class="alternative-font">Kitui County</span> and some parts of Machakos County (Masinga Sub-County).
+                </p>
+
+                <hr class="tall">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box feature-box-style-2">
+                    <div class="feature-box-icon">
+                        <i class="fa fa-group"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="mb-none">Mission</h4>
+                        <p class="tall">To provide sustainable, safe and adequate water services for domestic, industrial and commercial use in a cost effective manner and effectively manage the resultant waste water with a committed and motivated human resources</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box feature-box-style-2">
+                    <div class="feature-box-icon">
+                        <i class="fa fa-film"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="mb-none">Vision</h4>
+                        <p class="tall">To be the best water and sanitation service provider in the Republic of Kenya</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box feature-box-style-2">
+                    <div class="feature-box-icon">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="mb-none">Mandate</h4>
+                        <p class="tall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="call-to-action call-to-action-default with-button-arrow call-to-action-in-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 center">
-                    <h2>Our <strong>Services</strong></h2>
-                </div>
-            </div>
-            <div class="row mt-lg">
-                <div class="col-xs-4">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="img-responsive mb-lg" src="<?php echo base_url();?>assets/img/icons/seo-grey.png" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h4 class="mb-xs">SEO Optimization</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p><a class="btn-flat btn-xs" href="#">View More <i class="fa fa-arrow-right"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-4">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="img-responsive mb-lg" src="<?php echo base_url();?>assets/img/icons/marketing-grey.png" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h4 class="mb-xs">Marketing</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p><a class="btn-flat btn-xs" href="#">View More <i class="fa fa-arrow-right"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-4">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="img-responsive mb-lg" src="<?php echo base_url();?>assets/img/icons/support-grey.png" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h4 class="mb-xs">Support Services</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p><a class="btn-flat btn-xs" href="#">View More <i class="fa fa-arrow-right"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section section-no-background m-none">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <img class="img-responsive mb-lg" src="<?php echo base_url();?>assets/img/office/our-office-9.jpg" alt="Office">
-                </div>
-                <div class="col-md-9">
-                    <h2 class="mb-lg">Our <strong>Company</strong></h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat urna arcu. Mauris lobortis nulla ut aliquet interdum.</p>
-                    <p>Mauris lobortis nulla ut aliquet interdum. Donec commodo ac elit sed placerat. Mauris rhoncus est ac sodales gravida. In eros felis, elementum aliquam nisi vel, pellentesque faucibus nulla. Lorem ipsum dolor. <a class="btn-flat btn-xs" href="#">View More <i class="fa fa-arrow-right"></i></a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section m-none">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 center">
-                    <h2 class="mb-xs">Our <strong>Team</strong></h2>
-                </div>
-            </div>
-            <div class="row mt-lg">
-                <div class="col-md-2 col-xs-6 center mb-lg">
-                    <img src="<?php echo base_url();?>assets/img/team/team-11.jpg" class="img-responsive" alt="">
-                    <h5 class="mt-sm mb-none">Bruno Doe</h5>
-                    <p class="mb-none">CEO</p>
-                </div>
-                <div class="col-md-2 col-xs-6 center mb-lg">
-                    <img src="<?php echo base_url();?>assets/img/team/team-12.jpg" class="img-responsive" alt="">
-                    <h5 class="mt-sm mb-none">Jeff Doe</h5>
-                    <p class="mb-none">Developer</p>
-                </div>
-                <div class="col-md-2 col-xs-6 center mb-lg">
-                    <img src="<?php echo base_url();?>assets/img/team/team-13.jpg" class="img-responsive" alt="">
-                    <h5 class="mt-sm mb-none">Jessica Doe</h5>
-                    <p class="mb-none">Marketing</p>
-                </div>
-                <div class="col-md-2 col-xs-6 center mb-lg">
-                    <img src="<?php echo base_url();?>assets/img/team/team-14.jpg" class="img-responsive" alt="">
-                    <h5 class="mt-sm mb-none">Greg Doe</h5>
-                    <p class="mb-none">SEO</p>
-                </div>
-                <div class="col-md-2 col-xs-6 center mb-lg">
-                    <img src="<?php echo base_url();?>assets/img/team/team-15.jpg" class="img-responsive" alt="">
-                    <h5 class="mt-sm mb-none">Alex Doe</h5>
-                    <p class="mb-none">Support</p>
-                </div>
-                <div class="col-md-2 col-xs-6 center mb-lg">
-                    <img src="<?php echo base_url();?>assets/img/team/team-16.jpg" class="img-responsive" alt="">
-                    <h5 class="mt-sm mb-none">Melissa Doe</h5>
-                    <p class="mb-none">Support</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="parallax section section-text-light section-parallax section-center mt-none mb-none" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax-3.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="owl-carousel owl-theme nav-bottom rounded-nav" data-plugin-options="{'items': 1, 'loop': false}">
+                    <div class="owl-carousel owl-theme mt-xl" data-plugin-options="{'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
                         <div>
-                            <div class="col-md-12">
-                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
-                                    <div class="testimonial-author">
-                                        <img src="img/clients/client-1.jpg" class="img-responsive img-circle" alt="">
-                                    </div>
-                                    <blockquote>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ante tellus, convallis non consectetur sed, pharetra nec ex.</p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
-                                    </div>
-                                </div>
-                            </div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-1.png" alt="">
                         </div>
                         <div>
-                            <div class="col-md-12">
-                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
-                                    <div class="testimonial-author">
-                                        <img src="img/clients/client-1.jpg" class="img-responsive img-circle" alt="">
-                                    </div>
-                                    <blockquote>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
-                                    </div>
-                                </div>
-                            </div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-2.png" alt="">
+                        </div>
+                        <div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-3.png" alt="">
+                        </div>
+                        <div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-4.png" alt="">
+                        </div>
+                        <div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-5.png" alt="">
+                        </div>
+                        <div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-6.png" alt="">
+                        </div>
+                        <div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-4.png" alt="">
+                        </div>
+                        <div>
+                            <img class="img-responsive" src="<?php echo base_url();?>assets/img/logos/logo-2.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="section mt-none section-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 center">
-                    <h2>Our <strong> Blog</strong></h2>
+    <div class="container">
+        <br>
+        <div class="row mt-xl">
+            <div class="col-md-12 center">
+                <h2 class="mt-xl mb-xl">Latest <strong>Posts</strong></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="recent-posts mt-xl">
+                    <article class="post">
+                        <div class="date">
+                            <span class="day">11</span>
+                            <span class="month">Jan</span>
+                        </div>
+                        <h4><a href="blog-post.html">Expression of Interest from the Ithiani community</a></h4>
+                        <p>Expression of Interest from the Ithiani community to handover the running of Ithiani Water Project. The project is not operational and the request has been forwarded to the County Government of Kitui...</p>
+                        <a class="btn btn-borders btn-default mt-md mb-xl">Read More</a>
+                    </article>
                 </div>
             </div>
-            <div class="row mt-lg">
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/blog/blog-vintage-1.jpg" alt="Blog">
-                    <div class="recent-posts mt-md mb-lg">
-                        <article class="post">
-                            <h5><a class="text-dark" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
-                            <div class="post-meta">
-                                <span><i class="fa fa-calendar"></i> January 10, 2017 </span>
-                                <span><i class="fa fa-user"></i> By <a href="#">John Doe</a> </span>
-                                <span><i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
-                                <span><i class="fa fa-comments"></i> <a href="#">12 Comments</a></span>
-                            </div>
-                        </article>
-                    </div>
+            <div class="col-md-4">
+                <div class="recent-posts mt-xl">
+                    <article class="post">
+                        <div class="date">
+                            <span class="day">10</span>
+                            <span class="month">May</span>
+                        </div>
+                        <h4><a href="blog-post.html">Mutitu – Thua Water Project</a></h4>
+                        <p>The project is funded by Kenya Italy Debt for Development Programme (KIDDP) through Tanathi Water Services Board...</p>
+                        <a class="btn btn-borders btn-default mt-md mb-xl">Read More</a>
+                    </article>
                 </div>
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/blog/blog-vintage-2.jpg" alt="Blog">
-                    <div class="recent-posts mt-md mb-lg">
-                        <article class="post">
-                            <h5><a class="text-dark" href="blog-post.html">Lorem consectetur adipiscing elit.</a></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
-                            <div class="post-meta">
-                                <span><i class="fa fa-calendar"></i> January 10, 2017 </span>
-                                <span><i class="fa fa-user"></i> By <a href="#">John Doe</a> </span>
-                                <span><i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
-                                <span><i class="fa fa-comments"></i> <a href="#">12 Comments</a></span>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/blog/blog-vintage-3.jpg" alt="Blog">
-                    <div class="recent-posts mt-md mb-lg">
-                        <article class="post">
-                            <h5><a class="text-dark" href="blog-post.html">Lorem dolor sit amet, consectetur adipiscing elit.</a></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
-                            <div class="post-meta">
-                                <span><i class="fa fa-calendar"></i> January 10, 2017 </span>
-                                <span><i class="fa fa-user"></i> By <a href="#">John Doe</a> </span>
-                                <span><i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
-                                <span><i class="fa fa-comments"></i> <a href="#">12 Comments</a></span>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <img class="img-responsive" src="img/blog/blog-vintage-4.jpg" alt="Blog">
-                    <div class="recent-posts mt-md mb-lg">
-                        <article class="post">
-                            <h5><a class="text-dark" href="blog-post.html">Lorem ipsum dot, consectetur adipiscing elit.</a></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
-                            <div class="post-meta">
-                                <span><i class="fa fa-calendar"></i> January 10, 2017 </span>
-                                <span><i class="fa fa-user"></i> By <a href="#">John Doe</a> </span>
-                                <span><i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
-                                <span><i class="fa fa-comments"></i> <a href="#">12 Comments</a></span>
-                            </div>
-                        </article>
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="recent-posts mt-xl">
+                    <article class="post">
+                        <div class="date">
+                            <span class="day">31</span>
+                            <span class="month">Aug</span>
+                        </div>
+                        <h4><a href="blog-post.html">Customer Service Delivery Charter</a></h4>
+                        <p>The Company has a Customer Service Delivery Charter and has the following pay points M-Maji (Co-operative Bank M-Pesa Module)...</p>
+                        <a class="btn btn-borders btn-default mt-md mb-xl">Read More</a>
+                    </article>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
 </div>
